@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: 1em auto;
+    background-color: azure;
+    color: rgb(77, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.hero, .description {
+    text-align: center;
+    margin: 2em auto;
+}
+
+form {
+    width: 50vw;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgb(131, 143, 143);
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: grid;
+    margin: 10px auto;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 0 10px 0 0;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: rgb(232, 255, 255);
+    color: rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77);
+}
+
+.inline {
+    display: block;
+    width: unset;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
